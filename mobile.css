@@ -1,0 +1,109 @@
+[class*="col-"]{
+    width: 100%;
+}
+*{
+    box-sizing: border-box;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.navbar{
+   background-color: #189AB4;
+   padding: 10px;
+   
+}
+img{
+   height: auto;
+   width: 7%;
+   float: left;
+   border-radius: 60%;
+   box-shadow: 2px 3px 5px #05445E;
+}
+h1,h2,h3,h4,h5,h6{
+   color: aquamarine;
+}
+.bio{
+   padding: 10px 50px;
+   float: left;
+}
+.contact{
+   float: right;
+   padding: 30px 50px;
+}
+.contact a{
+       text-decoration: none;
+       color: rgb(24, 240, 240);
+       padding: 0px 10px;
+       font-size: 1.2rem;
+}
+.clear-div{
+   clear: both;
+}
+[class*="col-"]{
+   float: left;
+   padding: 10px;
+}
+.main{
+   background-color:#05445E ;
+   color: white;
+}
+.aside{
+   background-color:#35d0e1 ;
+   color:white;
+}
+#image2{
+   height: 200px;
+   width: 120px;
+   border-radius: 5px;
+}
+.head{ 
+background-color: #2fa5d7;
+text-align: center;
+}
+.clear-div{
+   clear: both;
+}
+
+.body{
+   display: flex;
+   flex-direction:column;
+   background-color: #05445E;
+   padding: 5px;
+   color: white;
+   
+}
+.card{
+   background-color: #05445E;
+   box-shadow: 3px 4px 5px #E8B4B8;
+}
+footer{
+   background-color:black;
+}
+   
+
+
+.copy{
+   float: left;
+   float: 50%;
+   
+  
+}
+.icon{
+   float: right;
+   float: 50%;
+  
+}
+.row::after{
+   content: '';
+   clear: both;
+   display: table;
+}
